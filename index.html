@@ -32,6 +32,18 @@
   </li>
 </ol>
 
+<h3>Your Peer ID is: <span id="peer-id"><i>pending</i></span></h3>
+<h4>Connect to a peer</h4>
+<form id="connect-form">
+    <input id="connect-peer-id" placeholder="Peer ID">
+    <button type="submit">Connect</button>
+</form>
+<h4>Your peers</h4>
+<audio id="peer-audio"></audio>
+<ul id="peer-list">
+
+</ul>
+
 <ul class="places">
   <li><span id="chapel" class="place chapel">loading...</span></li>
   <li><span id="mausoleum" class="place mausoleum">loading...</span></li>
@@ -43,6 +55,7 @@
 
 <a href="https://github.com/notthetup/auralizr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
+<script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
 <script src="bundle.js"></script>
 
 </body>
